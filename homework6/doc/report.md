@@ -42,4 +42,4 @@ Phong光照明模型中的光照是指 **环境光+漫反射光+镜面反射光*
   根据时间的变换修改 **lightPos** 的值，之后再 **model** 矩阵中进行操作来修改光源的位置。
 
 ## 四、演示视频地址
-[视频链接](www.bilibili.com/video/av51761408/)
+www.bilibili.com/video/av51761408/

@@ -17,7 +17,7 @@ Phong光照明模型中的光照是指 **环境光+漫反射光+镜面反射光*
 2. **反射**  
 
    根据**朗博余弦定理**进行漫反射光照结果计算。    
-    计算公式：$ I_{diffuse} = k_{diffuseStrength} I_{incidentLight} cos<l ,n>$ 
+    计算公式：$ I_{diffuse} = k_{diffuseStrength} I_{incidentLight} cos<l ,n>$   
    其中l为所求光照的物体表面的点指向光源的方向的单位向量，n为物体表面的单位法向量。   
 
 3. **镜面反射**   

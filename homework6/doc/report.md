@@ -12,12 +12,14 @@
 ### Phong光照明模型
 Phong光照明模型中的光照是指 **环境光+漫反射光+镜面反射光**的结果。最后将得到的光的结果与物体颜色做点积的到物体应该显示的颜色。  
 1. **环境光**  
-   计算公式： $I_{ambient}= k_{ambientStrength}I _{incidentLight}$  
+   计算公式：   
+      ![](images/ambient.png)
 
 2. **反射**  
 
    根据**朗博余弦定理**进行漫反射光照结果计算。    
-    计算公式：$ I_{diffuse} = k_{diffuseStrength} I_{incidentLight} cos<l ,n>$   
+   计算公式：  
+      ![](images/diffuse.png)  
    其中l为所求光照的物体表面的点指向光源的方向的单位向量，n为物体表面的单位法向量。   
 
 3. **镜面反射**   
